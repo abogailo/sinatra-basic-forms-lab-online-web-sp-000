@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/new' do 
+  get '/new' do
       erb :create_puppy
   end
 
